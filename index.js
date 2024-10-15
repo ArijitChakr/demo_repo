@@ -1,6 +1,7 @@
 const express = require("express");
 const app = express();
-
+const a = {};
+console.log(a);
 app.get("/add", function (req, res) {
   const a = Number(req.query.a);
   const b = Number(req.query.b);
